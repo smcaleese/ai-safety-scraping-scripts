@@ -1,0 +1,112 @@
+,papers,Is an AI safety paper?
+0,Hierarchical Text-Conditional Image Generation with CLIP Latents,
+1,Formal Mathematics Statement Curriculum Learning,
+2,Training language models to follow instructions with human feedback,Yes
+3,Text and Code Embeddings by Contrastive Pre-Training,
+4,WebGPT: Browser-assisted question-answering with human feedback,Yes
+5,Training Verifiers to Solve Math Word Problems,
+6,Recursively Summarizing Books with Human Feedback,Yes
+7,Evaluating Large Language Models Trained on Code,
+8,Process for Adapting Language Models to Society (PALMS) with Values-Targeted Datasets,Yes
+9,Multimodal Neurons in Artificial Neural Networks,
+10,Learning Transferable Visual Models From Natural Language Supervision,
+11,Zero-Shot Text-to-Image Generation,
+12,"Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models",Yes
+13,Generative Language Modeling for Automated Theorem Proving,
+14,Learning to Summarize from Human Feedback,Yes
+15,Generative Pretraining from Pixels,
+16,Language Models are Few-Shot Learners,
+17,Measuring the Algorithmic Efficiency of Neural Networks,
+18,Jukebox: A Generative Model for Music,
+19,Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims,Yes
+20,Scaling Laws for Neural Language Models,
+21,Deep Double Descent: Where Bigger Models and More Data Hurt,
+22,Leveraging Procedural Generation to Benchmark Reinforcement Learning,
+23,Benchmarking Safe Exploration in Deep Reinforcement Learning,Yes
+24,Release Strategies and the Social Impacts of Language Models,Yes
+25,Solving Rubik's Cube with a Robot Hand,
+26,Fine-Tuning Language Models from Human Preferences,Yes
+27,Emergent Tool Use From Multi-Agent Autocurricula,
+28,Testing Robustness Against Unforeseen Adversaries,Yes
+29,The Role of Cooperation in Responsible AI Development,Yes
+30,SGD on Neural Networks Learns Functions of Increasing Complexity,
+31,Transfer of Adversarial Robustness Between Perturbation Types,
+32,Generating Long Sequences with Sparse Transformers,
+33,Implicit Generation and Generalization in Energy-Based Models,
+34,Neural MMO: A Massively Multiagent Game Environment for Training and Evaluating Intelligent Agents,
+35,Language Models are Unsupervised Multitask Learners,
+36,Computational Limitations in Robust Classification and Win-Win Results,
+37,An Empirical Model of Large-Batch Training,
+38,Quantifying Generalization in Reinforcement Learning,
+39,Concept Learning with Energy-Based Models,
+40,"Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control",
+41,Exploration by Random Network Distillation,
+42,Supervising Strong Learners by Amplifying Weak Experts,Yes
+43,FFJORD: Free-Form Continuous Dynamics for Scalable Reversible Generative Models,
+44,Domain Randomization and Generative Models for Robotic Grasping,
+45,Constant Arboricity Spectral Sparsifiers,
+46,Large-Scale Study of Curiosity-Driven Learning,
+47,Learning Dexterous In-Hand Manipulation,
+48,Learning Policy Representations in Multiagent Systems,
+49,Variational Option Discovery Algorithms,
+50,Learning with Opponent-Learning Awareness,
+51,Glow: Generative Flow with Invertible 1x1 Convolutions,
+52,GamePad: A Learning Environment for Theorem Proving,
+53,AI Safety via Debate,Yes
+54,Emergence of Grounded Compositional Language in Multi-Agent Populations,
+55,Gotta Learn Fast: A New Benchmark for Generalization in RL,
+56,On First-Order Meta-Learning Algorithms,
+57,Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines,
+58,Improving GANs Using Optimal Transport,
+59,Reptile: a Scalable Metalearning Algorithm,
+60,Sim-to-real Transfer of Robotic Control with Dynamics Randomization,
+61,Some Considerations on Learning to Explore via Meta-Reinforcement Learning,
+62,Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research,
+63,Backpropagation through the Void: Optimizing Control Variates for Black-Box Gradient Estimation,
+64,"The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",Yes
+65,Evolved Policy Gradients,
+66,DeepType: Multilingual Entity Linking by Neural Type System Evolution,
+67,Learning Sparse Neural Networks through L0 Regularization,
+68,Interpretable and Pedagogical Examples,
+69,Meta Learning Shared Hierarchies,
+70,Domain Randomization and Generative Models for Robotic Grasping,
+71,Asymmetric Actor Critic for Image-Based Robot Learning,
+72,Emergent Complexity via Multi-Agent Competition,
+73,Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments,
+74,Learning with Opponent-Learning Awareness,
+75,Proximal Policy Optimization Algorithms,
+76,Hindsight Experience Replay,
+77,Teacher-Student Curriculum Learning,
+78,Deep reinforcement learning from human preferences,Yes
+79,Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments,
+80,Parameter Space Noise for Exploration,
+81,UCB Exploration via Q-Ensembles,
+82,Equivalence Between Policy Gradients and Soft Q-Learning,
+83,Stochastic Neural Networks for Hierarchical Reinforcement Learning,
+84,Learning to Generate Reviews and Discovering Sentiment,
+85,One-shot Imitation Learning,
+86,Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World,
+87,Emergence of Grounded Compositional Language in Multi-Agent Populations,
+88,Prediction and Control with Temporal Segment Models,
+89,Evolution Strategies as a Scalable Alternative to Reinforcement Learning,
+90,Third Person Imitation Learning,
+91,Adversarial Attacks on Neural Network Policies,Yes
+92,PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications,
+93,Universe,
+94,#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning,
+95,On the Quantitative Analysis of Decoder-Based Generative Models,
+96,"A Connection between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models",
+97,RL2: Fast Reinforcement Learning via Slow Reinforcement Learning,
+98,Variational Lossy Autoencoder,
+99,Adversarial Training Methods for Semi-Supervised Text Classification,Yes
+100,Extensions and Limitations of the Neural GPU,
+101,Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data,
+102,Transfer from Simulation to Real World through Learning Deep Inverse Dynamics Model,
+103,Infrastructure for Deep Learning,
+104,Concrete Problems in AI Safety,Yes
+105,Improving Variational Inference with Inverse Autoregressive Flow,
+106,InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets,
+107,Improved Techniques for Training GANS,
+108,OpenAI Gym,Yes
+109,Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks,
+110,VIME: Variational Information Maximizing Exploration,

@@ -1,0 +1,158 @@
+id,titles,is_safety_paper,authors
+0,"Hierarchical Text-Conditional Image
+Generation with CLIP Latents",,"Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen"
+1,Formal Mathematics Statement Curriculum Learning,,"Stanislas Polu, Jesse Michael Han, Kunhao Zheng, Mantas Baksys, Igor Babuschkin, Ilya Sutskever"
+2,"Training language models to follow
+instructions with human feedback",yes,"Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe"
+3,Text and Code Embeddings by Contrastive Pre-Training,,"Arvind Neelakantan, Tao Xu, Raul Puri, Alec Radford, Jesse Michael Han, Jerry Tworek, Qiming Yuan, Nikolas Tezak, Jong Wook Kim, Chris Hallacy, Johannes Heidecke, Pranav Shyam, Boris Power, Tyna Eloundou Nekoul, Girish Sastry, Gretchen Krueger, David Schnurr, Felipe Petroski Such, Kenny Hsu, Madeleine Thompson, Tabarak Khan, Toki Sherbakov, Joanne Jang, Peter Welinder, Lilian Weng"
+4,"WebGPT: Browser-assisted question-
+answering with human feedback",yes,"Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman"
+5,Training Verifiers to Solve Math Word Problems,,"Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman"
+6,Recursively Summarizing Books with Human Feedback,yes,"Jeff Wu, Long Ouyang, Daniel M. Ziegler, Nisan Stiennon, Ryan Lowe, Jan Leike, Paul Christiano"
+7,Evaluating Large Language Models Trained on Code,,"Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba"
+8,"Process for Adapting Language Models to
+Society (PALMS) with Values-Targeted Datasets",yes,
+9,Multimodal Neurons in Artificial Neural Networks,,
+10,"Learning Transferable Visual Models
+From Natural Language Supervision",,"Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever"
+11,Zero-Shot Text-to-Image Generation,,"Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever"
+12,"Understanding the Capabilities, Limitations,
+and Societal Impact of Large Language Models",yes,"Alex Tamkin, Miles Brundage, Jack Clark, Deep Ganguli"
+13,"Generative Language Modeling
+for Automated Theorem Proving",,"Stanislas Polu, Ilya Sutskever"
+14,Learning to Summarize from Human Feedback,yes,"Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, Paul Christiano"
+15,Generative Pretraining from Pixels,,
+16,Language Models are Few-Shot Learners,,"Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei"
+17,Measuring the Algorithmic Efficiency of Neural Networks,,"Danny Hernandez, Tom B. Brown"
+18,Jukebox: A Generative Model for Music,,"Prafulla Dhariwal, Heewoo Jun, Christine Payne, Jong Wook Kim, Alec Radford, Ilya Sutskever"
+19,"Toward Trustworthy AI Development:
+Mechanisms for Supporting Verifiable Claims",yes,"Miles Brundage, Shahar Avin, Jasmine Wang, Haydn Belfield, Gretchen Krueger, Gillian Hadfield, Heidy Khlaaf, Jingying Yang, Helen Toner, Ruth Fong, Tegan Maharaj, Pang Wei Koh, Sara Hooker, Jade Leung, Andrew Trask, Emma Bluemke, Jonathan Lebensold, Cullen O'Keefe, Mark Koren, Théo Ryffel, JB Rubinovitz, Tamay Besiroglu, Federica Carugati, Jack Clark, Peter Eckersley, Sarah de Haas, Maritza Johnson, Ben Laurie, Alex Ingerman, Igor Krawczuk, Amanda Askell, Rosario Cammarota, Andrew Lohn, David Krueger, Charlotte Stix, Peter Henderson, Logan Graham, Carina Prunkl, Bianca Martin, Elizabeth Seger, Noa Zilberman, Seán Ó hÉigeartaigh, Frens Kroeger, Girish Sastry, Rebecca Kagan, Adrian Weller, Brian Tse, Elizabeth Barnes, Allan Dafoe, Paul Scharre, Ariel Herbert-Voss, Martijn Rasser, Shagun Sodhani, Carrick Flynn, Thomas Krendl Gilbert, Lisa Dyer, Saif Khan, Yoshua Bengio, Markus Anderljung"
+20,Scaling Laws for Neural Language Models,,"Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, Dario Amodei"
+21,"Deep Double Descent: Where
+Bigger Models and More Data Hurt",,"Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever"
+22,"Leveraging Procedural Generation to
+Benchmark Reinforcement Learning",,"Karl Cobbe, Christopher Hesse, Jacob Hilton, John Schulman"
+23,"Benchmarking Safe Exploration
+in Deep Reinforcement Learning",yes,
+24,"Release Strategies and the Social
+Impacts of Language Models",yes,"Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, Sarah Kreps, Miles McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, Jasmine Wang"
+25,Solving Rubik’s Cube with a Robot Hand,,"OpenAI, Ilge Akkaya, Marcin Andrychowicz, Maciek Chociej, Mateusz Litwin, Bob McGrew, Arthur Petron, Alex Paino, Matthias Plappert, Glenn Powell, Raphael Ribas, Jonas Schneider, Nikolas Tezak, Jerry Tworek, Peter Welinder, Lilian Weng, Qiming Yuan, Wojciech Zaremba, Lei Zhang"
+26,Fine-Tuning Language Models from Human Preferences,yes,"Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, Geoffrey Irving"
+27,Emergent Tool Use From Multi-Agent Autocurricula,,"Bowen Baker, Ingmar Kanitscheider, Todor Markov, Yi Wu, Glenn Powell, Bob McGrew, Igor Mordatch"
+28,Testing Robustness Against Unforeseen Adversaries,yes,"Daniel Kang, Yi Sun, Dan Hendrycks, Tom Brown, Jacob Steinhardt"
+29,The Role of Cooperation in Responsible AI Development,yes,"Amanda Askell, Miles Brundage, Gillian Hadfield"
+30,"SGD on Neural Networks Learns
+Functions of Increasing Complexity",,"Preetum Nakkiran, Gal Kaplun, Dimitris Kalimeris, Tristan Yang, Benjamin L. Edelman, Fred Zhang, Boaz Barak"
+31,"Transfer of Adversarial Robustness
+Between Perturbation Types",,"Daniel Kang, Yi Sun, Tom Brown, Dan Hendrycks, Jacob Steinhardt"
+32,Generating Long Sequences with Sparse Transformers,,"Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever"
+33,"Implicit Generation and
+Generalization in Energy-Based Models",,"Yilun Du, Igor Mordatch"
+34,"Neural MMO: A Massively Multiagent Game Environment
+for Training and Evaluating Intelligent Agents",,"Joseph Suarez, Yilun Du, Phillip Isola, Igor Mordatch"
+35,Language Models are Unsupervised Multitask Learners,,
+36,"Computational Limitations in Robust
+Classification and Win-Win Results",,"Akshay Degwekar, Preetum Nakkiran, Vinod Vaikuntanathan"
+37,An Empirical Model of Large-Batch Training,,"Sam McCandlish, Jared Kaplan, Dario Amodei, OpenAI Dota Team"
+38,Quantifying Generalization in Reinforcement Learning,,"Karl Cobbe, Oleg Klimov, Chris Hesse, Taehoon Kim, John Schulman"
+39,Concept Learning with Energy-Based Models,,Igor Mordatch
+40,"Plan Online, Learn Offline: Efficient Learning
+and Exploration via Model-Based Control",,"Kendall Lowrey, Aravind Rajeswaran, Sham Kakade, Emanuel Todorov, Igor Mordatch"
+41,Exploration by Random Network Distillation,,"Yuri Burda, Harrison Edwards, Amos Storkey, Oleg Klimov"
+42,Supervising Strong Learners by Amplifying Weak Experts,yes,"Paul Christiano, Buck Shlegeris, Dario Amodei"
+43,"FFJORD: Free-Form Continuous Dynamics
+for Scalable Reversible Generative Models",,"Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya Sutskever, David Duvenaud"
+44,"Domain Randomization and Generative
+Models for Robotic Grasping",,"Joshua Tobin, Lukas Biewald, Rocky Duan, Marcin Andrychowicz, Ankur Handa, Vikash Kumar, Bob McGrew, Jonas Schneider, Peter Welinder, Wojciech Zaremba, Pieter Abbeel"
+45,Constant Arboricity Spectral Sparsifiers,,"Timothy Chu, Michael B. Cohen, Jakub W. Pachocki, Richard Peng"
+46,Large-Scale Study of Curiosity-Driven Learning,,"Yuri Burda, Harri Edwards, Deepak Pathak, Amos Storkey, Trevor Darrell, Alexei A. Efros"
+47,Learning Dexterous In-Hand Manipulation,,"OpenAI, Marcin Andrychowicz, Bowen Baker, Maciek Chociej, Rafal Jozefowicz, Bob McGrew, Jakub Pachocki, Arthur Petron, Matthias Plappert, Glenn Powell, Alex Ray, Jonas Schneider, Szymon Sidor, Josh Tobin, Peter Welinder, Lilian Weng, Wojciech Zaremba"
+48,Learning Policy Representations in Multiagent Systems,,"Aditya Grover, Maruan Al-Shedivat, Jayesh K. Gupta, Yura Burda, Harrison Edwards"
+49,Variational Option Discovery Algorithms,,"Joshua Achiam, Harrison Edwards, Dario Amodei, Pieter Abbeel"
+50,Learning with Opponent-Learning Awareness,,"Jakob N. Foerster, Richard Y. Chen, Maruan Al-Shedivat, Shimon Whiteson, Pieter Abbeel, Igor Mordatch"
+51,Glow: Generative Flow with Invertible 1x1 Convolutions,,"Diederik P. Kingma, Prafulla Dhariwal"
+52,GamePad: A Learning Environment for Theorem Proving,,"Daniel Huang, Prafulla Dhariwal, Dawn Song, Ilya Sutskever"
+53,AI Safety via Debate,yes,"Geoffrey Irving, Paul Christiano, Dario Amodei"
+54,"Emergence of Grounded Compositional
+Language in Multi-Agent Populations",,"Igor Mordatch, Pieter Abbeel"
+55,Gotta Learn Fast: A New Benchmark for Generalization in RL,,"Alex Nichol, Vicki Pfau, Christopher Hesse, Oleg Klimov, John Schulman"
+56,On First-Order Meta-Learning Algorithms,,"Alex Nichol, Joshua Achiam, John Schulman"
+57,"Variance Reduction for Policy Gradient with
+Action-Dependent Factorized Baselines",,"Cathy Wu, Aravind Rajeswaran, Yan Duan, Vikash Kumar, Alexandre M Bayen, Sham Kakade, Igor Mordatch, Pieter Abbeel"
+58,Improving GANs Using Optimal Transport,,"Tim Salimans, Han Zhang, Alec Radford, Dimitris Metaxas"
+59,Reptile: a Scalable Metalearning Algorithm,,"Alex Nichol, Joshua Achiam, John Schulman"
+60,"Sim-to-real Transfer of Robotic
+Control with Dynamics Randomization",,"Xue Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, Pieter Abbeel"
+61,"Some Considerations on Learning to
+Explore via Meta-Reinforcement Learning",,"Bradly C. Stadie, Ge Yang, Rein Houthooft, Xi Chen, Yan Duan, Yuhuai Wu, Pieter Abbeel, Ilya Sutskever"
+62,"Multi-Goal Reinforcement Learning: Challenging
+Robotics Environments and Request for Research",,"Matthias Plappert, Marcin Andrychowicz, Alex Ray, Bob McGrew, Bowen Baker, Glenn Powell, Jonas Schneider, Josh Tobin, Maciek Chociej, Peter Welinder, Vikash Kumar, Wojciech Zaremba"
+63,"Backpropagation through the Void: Optimizing
+Control Variates for Black-Box Gradient Estimation",,"Will Grathwohl, Dami Choi, Yuhuai Wu, Geoffrey Roeder, David Duvenaud"
+64,"The Malicious Use of Artificial Intelligence:
+Forecasting, Prevention, and Mitigation",yes,"Miles Brundage, Shahar Avin, Jack Clark, Helen Toner, Peter Eckersley, Ben Garfinkel, Allan Dafoe, Paul Scharre, Thomas Zeitzoff, Bobby Filar, Hyrum Anderson, Heather Roff, Gregory C. Allen, Jacob Steinhardt, Carrick Flynn, Seán Ó hÉigeartaigh, Simon Beard, Haydn Belfield, Sebastian Farquhar, Clare Lyle, Rebecca Crootof, Owain Evans, Michael Page, Joanna Bryson, Roman Yampolskiy, Dario Amodei"
+65,Evolved Policy Gradients,,"Rein Houthooft, Richard Y. Chen, Phillip Isola, Bradly C. Stadie, Filip Wolski, Jonathan Ho, Pieter Abbeel"
+66,"DeepType: Multilingual Entity Linking
+by Neural Type System Evolution",,"Jonathan Raiman, Olivier Raiman"
+67,Learning Sparse Neural Networks through L0 Regularization,,"Christos Louizos, Max Welling, Diederik P. Kingma"
+68,Interpretable and Pedagogical Examples,,"Smitha Milli, Pieter Abbeel, Igor Mordatch"
+69,Meta Learning Shared Hierarchies,,"Kevin Frans, Jonathan Ho, Xi Chen, Pieter Abbeel, John Schulman"
+70,"Domain Randomization and Generative
+Models for Robotic Grasping",,"Joshua Tobin, Lukas Biewald, Rocky Duan, Marcin Andrychowicz, Ankur Handa, Vikash Kumar, Bob McGrew, Jonas Schneider, Peter Welinder, Wojciech Zaremba, Pieter Abbeel"
+71,Asymmetric Actor Critic for Image-Based Robot Learning,,"Lerrel Pinto, Marcin Andrychowicz, Peter Welinder, Wojciech Zaremba, Pieter Abbeel"
+72,Emergent Complexity via Multi-Agent Competition,,"Trapit Bansal, Jakub Pachocki, Szymon Sidor, Ilya Sutskever, Igor Mordatch"
+73,"Continuous Adaptation via Meta-Learning in
+Nonstationary and Competitive Environments",,"Maruan Al-Shedivat, Trapit Bansal, Yuri Burda, Ilya Sutskever, Igor Mordatch, Pieter Abbeel"
+74,Learning with Opponent-Learning Awareness,,"Jakob N. Foerster, Richard Y. Chen, Maruan Al-Shedivat, Shimon Whiteson, Pieter Abbeel, Igor Mordatch"
+75,Proximal Policy Optimization Algorithms,,"John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov"
+76,Hindsight Experience Replay,,"Marcin Andrychowicz, Filip Wolski, Alex Ray, Jonas Schneider, Rachel Fong, Peter Welinder, Bob McGrew, Josh Tobin, Pieter Abbeel, Wojciech Zaremba"
+77,Teacher-Student Curriculum Learning,,"Tambet Matiisen, Avital Oliver, Taco Cohen, John Schulman"
+78,Deep reinforcement learning from human preferences,yes,"Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei"
+79,"Multi-Agent Actor-Critic for Mixed
+Cooperative-Competitive Environments",,"Ryan Lowe, Yi Wu, Aviv Tamar, Jean Harb, Pieter Abbeel, Igor Mordatch"
+80,Parameter Space Noise for Exploration,,"Matthias Plappert, Rein Houthooft, Prafulla Dhariwal, Szymon Sidor, Richard Y. Chen, Xi Chen, Tamim Asfour, Pieter Abbeel, Marcin Andrychowicz"
+81,UCB Exploration via Q-Ensembles,,"Richard Y. Chen, Szymon Sidor, Pieter Abbeel, John Schulman"
+82,Equivalence Between Policy Gradients and Soft Q-Learning,,"John Schulman, Xi Chen, Pieter Abbeel"
+83,"Stochastic Neural Networks for
+Hierarchical Reinforcement Learning",,"Carlos Florensa, Yan Duan, Pieter Abbeel"
+84,Learning to Generate Reviews and Discovering Sentiment,,"Alec Radford, Rafal Jozefowicz, Ilya Sutskever"
+85,One-shot Imitation Learning,,"Yan Duan, Marcin Andrychowicz, Bradly C. Stadie, Jonathan Ho, Jonas Schneider, Ilya Sutskever, Pieter Abbeel, Wojciech Zaremba"
+86,"Domain Randomization for Transferring Deep
+Neural Networks from Simulation to the Real World",,"Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, Pieter Abbeel"
+87,"Emergence of Grounded Compositional
+Language in Multi-Agent Populations",,"Igor Mordatch, Pieter Abbeel"
+88,Prediction and Control with Temporal Segment Models,,"Nikhil Mishra, Pieter Abbeel, Igor Mordatch"
+89,"Evolution Strategies as a Scalable
+Alternative to Reinforcement Learning",,"Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, Ilya Sutskever"
+90,Third Person Imitation Learning,,"Bradly C. Stadie, Pieter Abbeel, Ilya Sutskever"
+91,Adversarial Attacks on Neural Network Policies,yes,"Sandy Huang, Nicolas Papernot, Ian Goodfellow, Yan Duan, Pieter Abbeel"
+92,"PixelCNN++: Improving the PixelCNN with Discretized
+Logistic Mixture Likelihood and Other Modifications",,"Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma"
+93,Universe,,
+94,"#Exploration: A Study of Count-Based
+Exploration for Deep Reinforcement Learning",,"Haoran Tang, Rein Houthooft, Davis Foote, Adam Stooke, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel"
+95,"On the Quantitative Analysis of
+Decoder-Based Generative Models",,"Yuhuai Wu, Yuri Burda, Ruslan Salakhutdinov, Roger Grosse"
+96,"A Connection between Generative Adversarial Networks,
+Inverse Reinforcement Learning, and Energy-Based Models",,"Chelsea Finn, Paul Christiano, Pieter Abbeel, Sergey Levine"
+97,"RL2: Fast Reinforcement Learning
+via Slow Reinforcement Learning",,"Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbeel"
+98,Variational Lossy Autoencoder,,"Xi Chen, Diederik P. Kingma, Tim Salimans, Yan Duan, Prafulla Dhariwal, John Schulman, Ilya Sutskever, Pieter Abbeel"
+99,"Adversarial Training Methods for
+Semi-Supervised Text Classification",yes,"Takeru Miyato, Andrew M. Dai, Ian Goodfellow"
+100,Extensions and Limitations of the Neural GPU,,"Eric Price, Wojciech Zaremba, Ilya Sutskever"
+101,"Semi-supervised Knowledge Transfer for
+Deep Learning from Private Training Data",,"Nicolas Papernot, Martín Abadi, Úlfar Erlingsson, Ian Goodfellow, Kunal Talwar"
+102,"Transfer from Simulation to Real World through
+Learning Deep Inverse Dynamics Model",,"Paul Christiano, Zain Shah, Igor Mordatch, Jonas Schneider, Trevor Blackwell, Joshua Tobin, Pieter Abbeel, Wojciech Zaremba"
+103,Infrastructure for Deep Learning,,
+104,Concrete Problems in AI Safety,yes,"Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, Dan Mané"
+105,"Improving Variational Inference
+with Inverse Autoregressive Flow",,"Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling"
+106,"InfoGAN: Interpretable Representation Learning by
+Information Maximizing Generative Adversarial Nets",,"Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel"
+107,Improved Techniques for Training GANS,,"Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen"
+108,OpenAI Gym,yes,"Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, Wojciech Zaremba"
+109,"Weight Normalization: A Simple Reparameterization
+to Accelerate Training of Deep Neural Networks",,"Tim Salimans, Diederik P. Kingma"
+110,VIME: Variational Information Maximizing Exploration,,"Rein Houthooft, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel"
