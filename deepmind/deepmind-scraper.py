@@ -18,7 +18,7 @@ def get_papers_and_authors(soup, papers_and_authors):
         papers_and_authors[title] = author_names
 
 def main():
-    url = 'https://www.deepmind.com/research?tag=Safety&d907cb24_page=1'
+    url = 'https://www.deepmind.com/research?tag=Safety&d907cb24_page=1'    # get all publications related to AI safety
     papers_and_authors = {}
     browser = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
     browser.get(url)

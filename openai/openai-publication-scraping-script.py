@@ -1,17 +1,7 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from time import sleep
-from urllib.request import urlopen
 import pandas as pd
-
-'''
-DONE
-- get all the papers
-- open the CSV file and classify the papers as either related to safety or not
-
-TODO
-- get all the papers and authors 14:20
-'''
 
 def open_second_window(browser, link):
     link.click()
@@ -56,7 +46,11 @@ def main():
         authors_of_paper = get_authors(browser, link)
         authors.append(authors_of_paper)
 
-    df = pd.DataFrame({'titles': titles, 'authors': authors})
+    df = pd.DataFrame({
+        'titles': titles,
+        'is_safety_paper': ['no' for _ in range(len(titles))],
+        'authors': authors
+    })
     df.to_csv('openai-papers-and-authors.csv')
 
 if __name__ == '__main__':
