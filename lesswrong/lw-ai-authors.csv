@@ -1,0 +1,343 @@
+,authors
+0,Jeffrey Ladish
+1,Nathan Helm-Burger
+2,Rauno Arike
+3,harsimony
+4,acylhalide
+5,Michael Oesterle
+6,Quintin Pope
+7,Richard Henage
+8,lincolnquirk
+9,Kakili
+10,throwaway8238
+11,ondragon
+12,Dmitry Savishchev
+13,lc
+14,meanderingmoose
+15,remember
+16,FinalFormal2
+17,Heighn
+18,Marius Hobbhahn
+19,Severin T. Seehrich
+20,lcmgcd
+21,Raphaël S
+22,Darmani
+23,Just Learning
+24,Andrew_Critch
+25,Jonathan Paulson
+26,Grant Demaree
+27,John Nay
+28,Alex K. Chen
+29,Dan Hendrycks
+30,Feraidoon
+31,Jacob_Hilton
+32,Harriet Farlow
+33,Vika
+34,Eric K
+35,PavleMiha
+36,Karl von Wendt
+37,ChristianKl
+38,Davis_Kingsley
+39,ghostwheel
+40,Bill Benzon
+41,River Lewis
+42,Jakobovski
+43,ryan_b
+44,Sable
+45,Anca G. Rusu
+46,Not Relevant
+47,nostalgebraist
+48,Perhaps
+49,Crissman
+50,Chris van Merwijk
+51,sidhe_they
+52,Neil Crawford
+53,TheMcDouglas
+54,Shay
+55,technicalities
+56,Mauricio
+57,Esben Kran
+58,janus
+59,DavidHolmes
+60,Michael Chen
+61,NinaR
+62,Metaculus
+63,Josh
+64,Double
+65,lisperati
+66,DaemonicSigil
+67,strawberry calm
+68,kman
+69,Ozyrus
+70,Beth Barnes
+71,frances_lorenz
+72,JustisMills
+73,Scott Emmons
+74,iivonen
+75,jonmenaster
+76,Buck
+77,Sammy Martin
+78,Aaron Bergman
+79,Zohar Jackson
+80,outerloper
+81,Netcentrica
+82,Peter S. Park
+83,ines
+84,Shariq Hashme
+85,Nora Belrose
+86,AISafetyIsNotLongtermist
+87,LRudL
+88,AmberDawn
+89,Nick
+90,Tony Barrett
+91,lsusr
+92,Leon Lang
+93,Rohin Shah
+94,Sam Bowman
+95,evhub
+96,Nora_Ammann
+97,Ben Smith
+98,David Gross
+99,jefftk
+100,Michaël Trazzi
+101,Akbir Khan
+102,Steinthal
+103,HoldenKarnofsky
+104,423175
+105,randomstring
+106,tailcalled
+107,LukeOnline
+108,Yldedly
+109,Trevor1
+110,David Valdman
+111,catubc
+112,Liron
+113,Algon
+114,TekhneMakre
+115,Eliezer Yudkowsky
+116,alyssavance
+117,NicholasKross
+118,scasper
+119,Dustin
+120,Jamie Bernardi
+121,Richard_Ngo
+122,AdamGleave
+123,Jonas Hallgren
+124,P.
+125,P. G. Keerthana Gopalakrishnan
+126,xuan
+127,jsteinhardt
+128,Tor Økland Barstad
+129,charlie.rs
+130,Ramiro P.
+131,George3d6
+132,Ryan Kidd
+133,Gunnar_Zarncke
+134,bmg
+135,Michael Soareverix
+136,Dagon
+137,Moebius314
+138,Pablo Villalobos
+139,Sam Marks
+140,Steven Byrnes
+141,mu_(negative)
+142,Jonas Kgomo
+143,Daniel_Friedrich
+144,NathanBarnard
+145,Thomas Larsen
+146,David Scott Krueger (formerly: capybaralet)
+147,Evan R. Murphy
+148,Peter Hroššo
+149,Francis Rhys Ward
+150,Aiyen
+151,Jeremy Gillen
+152,Mantas Mazeika
+153,Ulisse Mini
+154,Thomas Kwa
+155,Roman Leventov
+156,antimonyanthony
+157,Gabriel Mukobi
+158,AlignmentMirror
+159,Ethan Perez
+160,DMZ
+161,Jan
+162,Sidney Hough
+163,Massimog
+164,Wyatt Tessari L'Allié
+165,WilliamKiely
+166,avturchin
+167,zeshen
+168,HunterJay
+169,Stephen Fowler
+170,shminux
+171,otto.barten
+172,Tamay
+173,Evan_Gaensbauer
+174,Aleksi Liimatainen
+175,Jackson Wagner
+176,Holly_Elmore
+177,cranberry_bear
+178,Jan_Kulveit
+179,elspood
+180,ExCeph
+181,Victor Warlop
+182,Yitz
+183,Garrett Baker
+184,nonzerosum
+185,Quadratic Reciprocity
+186,ti_guo
+187,oh54321
+188,Verden
+189,jasoncrawford
+190,JeffreyK
+191,puzzleGuzzle
+192,Charlie Steiner
+193,mukashi
+194,BrainFrog
+195,Apart Research
+196,elandgre
+197,Ege Erdil
+198,Simon Fischer
+199,Thane Ruthenis
+200,Joel Burget
+201,142857
+202,Epirito
+203,PeterMcCluskey
+204,ZT5
+205,Zeruel017
+206,visiax
+207,Fabien
+208,[anonymous]
+209,janleike
+210,AnonResearch
+211,dbasch
+212,Rafael Harth
+213,Harrison G
+214,Aris
+215,Ian McKenzie
+216,Matthew Barnett
+217,LetUsTalk
+218,apollonianblues
+219,Aorou
+220,Yair Halberstadt
+221,Jan Czechowski
+222,adamShimi
+223,elephantcrew
+224,A Ray
+225,walking_mushroom
+226,Cullen_OKeefe
+227,Stuart_Armstrong
+228,Vanessa Kosoy
+229,jchan
+230,porby
+231,Ponder Stibbons
+232,Nick Hay
+233,Rob Bensinger
+234,plex
+235,eSpencer
+236,robertzk
+237,iamthouthouarti
+238,LHA
+239,ojorgensen
+240,Aryeh Englander
+241,Salsabila Mahdi
+242,Jsevillamol
+243,wilm
+244,Samuel Nellessen
+245,David Udell
+246,So8res
+247,Kevin Liu
+248,ThomasW
+249,Wei_Dai
+250,aphyer
+251,Chris Lengerich
+252,Florian_Dietz
+253,Ratios
+254,RomanS
+255,Domenic
+256,JesseClifton
+257,Connor Leahy
+258,azsantosk
+259,p.b.
+260,carado
+261,Neel Nanda
+262,Ivan Vendrov
+263,Logan Zoellner
+264,Aditya
+265,David Johnston
+266,DanielFilan
+267,geoffreymiller
+268,JonathanRystroem
+269,elifland
+270,fiso64
+271,Ocracoke
+272,Claudia Shi
+273,Adam Jermyn
+274,Noosphere89
+275,Kaj_Sotala
+276,aogara
+277,Lawrence Phillips
+278,Eleni Angelou
+279,interstice
+280,Nikita Sokolsky
+281,Pablo Repetto
+282,Robert Miles
+283,Oliver Zhang
+284,Darren McKee
+285,DeLesley Hutchins
+286,Tamay Besiroglu
+287,Raemon
+288,stuhlmueller
+289,William_S
+290,KatWoods
+291,Martín Soto
+292,Joe Carlsmith
+293,Akash
+294,Davidmanheim
+295,Shos Tekofsky
+296,Fai
+297,MaximumLiberty
+298,Ansh Radhakrishnan
+299,jacquesthibs
+300,Rafael Cosman
+301,Vael Gates
+302,DragonGod
+303,Cameron Berg
+304,RohanS
+305,anson.ho
+306,dkirmani
+307,Nate Thomas
+308,Nathan1123
+309,Cedar
+310,Whispermute
+311,Geoffrey Irving
+312,Casey
+313,Letti
+314,Ajeya Cotra
+315,JonathanErhardt
+316,Sherrinford
+317,Michele Campolo
+318,Rubi
+319,Filip Sondej
+320,lennart
+321,Michael Bright
+322,LawrenceC
+323,peterbarnett
+324,Alex_Altair
+325,paulfchristiano
+326,Logan Riggs
+327,Stephen McAleese
+328,johnswentworth
+329,Chris Scammell
+330,Hannes Thurnherr
+331,Chris_Leong
+332,lumenwrites
+333,Marv K
+334,Oren Montano
+335,Q Home
+336,Paul Bricman
+337,NickyP
+338,Benjamin Hilton
+339,Yonatan Cale
+340,JamesH
+341,KatjaGrace

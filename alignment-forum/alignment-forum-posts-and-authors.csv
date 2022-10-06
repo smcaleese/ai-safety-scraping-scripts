@@ -1,216 +1,442 @@
 ,titles,authors
 0,Welcome & FAQ!,"Ruben Bloom, Oliver Habryka"
-1,Attempts at Forwarding Speed Priors,"james.lucassen, Evan Hubinger"
-2,Interpreting Neural Networks through the Polytope Lens,"Sid Black, Lee Sharkey, Connor Leahy, Beren Millidge, CRG, merizian, EricWinsor, Dan Braun"
-3,Methodological Therapy: An Agenda For Tackling Research Bottlenecks,"Adam Shimi, Lucas Teixeira, remember"
-4,Toy Models of Superposition,Evan Hubinger
-5,"Announcing AISIC 2022 - the AI Safety Israel Conference, October 19-20",David Manheim
-6,"Nearcast-based ""deployment problem"" analysis",HoldenKarnofsky
-7,Towards deconfusing wireheading and reward maximization,leogao
-8,Doing oversight from the very start of training seems hard,Peter Barnett
-9,PIBBSS (AI alignment) is hiring for a Project Manager,Nora_Ammann
-10,The Inter-Agent Facet of AI Alignment,Michael Oesterle
-11,Summaries: Alignment Fundamentals Curriculum,Leon Lang
-12,Inner alignment: what are we pointing at?,Luke H Miles
-13,Refine's Third Blog Post Day/Week,Adam Shimi
-14,Prize and fast track to alignment research at ALTER,Vanessa Kosoy
-15,Takeaways from our robust injury classifier project [Redwood Research],DMZ
-16,Refine Blogpost Day #3: The shortforms I did write,Self-Embedded Agent
-17,Levels of goals and alignment,zeshen
-18,ordering capability thresholds,Tamsin Leake
-19,Representational Tethers: Tying AI Latents To Human Ones,Paul Bricman
-20,AGI safety researchers should focus (only/mostly) on deceptive alignment,Marius Hobbhahn
-21,Coordinate-Free Interpretability Theory,johnswentworth
-22,When is intent alignment sufficient or necessary to reduce AGI conflict? ,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
-23,When would AGIs engage in conflict?,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
-24,When does technical work to reduce AGI conflict make a difference?: Introduction,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
-25,The Defender’s Advantage of Interpretability,Marius Hobbhahn
-26,Some ideas for epistles to the AI ethicists,Charlie Steiner
-27,Trying to find the underlying structure of computational systems,Matthias G. Mayer
-28,"New tool for exploring EA Forum, LessWrong and Alignment Forum - Tree of Tags",Filip Sondej
-29,[Linkpost] A survey on over 300 works about interpretability in deep networks,Stephen Casper
-30,Ideological Inference Engines: Making Deontology Differentiable*,Paul Bricman
-31,Quintin's alignment papers roundup - week 1,Quintin Pope
-32,Path dependence in ML inductive biases,"Vivek Hebbar, Evan Hubinger"
-33,Ought will host a factored cognition “Lab Meeting”,"jungofthewon, Andreas Stuhlmüller"
-34,Evaluations project @ ARC is hiring a researcher and a webdev/engineer,Beth Barnes
-35,Oversight Leagues: The Training Game as a Feature,Paul Bricman
-36,Understanding and avoiding value drift,Alex Turner
-37,Most People Start With The Same Few Bad Ideas,johnswentworth
-38,Monitoring for deceptive alignment,Evan Hubinger
-39,[An email with a bunch of links I sent an experienced ML researcher interested in learning about Alignment / x-safety.],David Scott Krueger
-40,"What Should AI Owe To Us?
+1,Clarifying the Agent-Like Structure Problem,johnswentworth
+2,Where I currently disagree with Ryan Greenblatt’s version of the ELK approach,Nate Soares
+3,It matters when the first sharp left turn happens,Adam Jermyn
+4,Builder/Breaker for Deconfusion,Abram Demski
+5,A Library and Tutorial for Factored Cognition with Language Models,"Andreas Stuhlmüller, Luke Stebbing, justin_dan, goodgravy"
+6,Threat-Resistant Bargaining Megapost: Introducing the ROSE Value,Diffractor
+7,My Thoughts on the ML Safety Course,zeshen
+8,[MLSN #5]: Prize Compilation,Dan Hendrycks
+9,Inverse Scaling Prize: Round 1 Winners,"Ethan Perez, Ian McKenzie"
+10,Brief Notes on Transformers,Adam Jermyn
+11,Planning capacity and daemons,Luke H Miles
+12,Attempts at Forwarding Speed Priors,"james.lucassen, Evan Hubinger"
+13,Interpreting Neural Networks through the Polytope Lens,"Sid Black, Lee Sharkey, Connor Leahy, Beren Millidge, CRG, merizian, EricWinsor, Dan Braun"
+14,Interlude: But Who Optimizes The Optimizer?,Paul Bricman
+15,Methodological Therapy: An Agenda For Tackling Research Bottlenecks,"Adam Shimi, Lucas Teixeira, remember"
+16,Toy Models of Superposition,Evan Hubinger
+17,"Announcing AISIC 2022 - the AI Safety Israel Conference, October 19-20",David Manheim
+18,"Nearcast-based ""deployment problem"" analysis",HoldenKarnofsky
+19,Towards deconfusing wireheading and reward maximization,leogao
+20,Doing oversight from the very start of training seems hard,Peter Barnett
+21,PIBBSS (AI alignment) is hiring for a Project Manager,Nora_Ammann
+22,The Inter-Agent Facet of AI Alignment,Michael Oesterle
+23,Summaries: Alignment Fundamentals Curriculum,Leon Lang
+24,Inner alignment: what are we pointing at?,Luke H Miles
+25,Refine's Third Blog Post Day/Week,Adam Shimi
+26,Prize and fast track to alignment research at ALTER,Vanessa Kosoy
+27,Takeaways from our robust injury classifier project [Redwood Research],DMZ
+28,Refine Blogpost Day #3: The shortforms I did write,Self-Embedded Agent
+29,Levels of goals and alignment,zeshen
+30,ordering capability thresholds,Tamsin Leake
+31,Representational Tethers: Tying AI Latents To Human Ones,Paul Bricman
+32,The case for why AGI safety researchers should focus (more/mostly) on deceptive alignment,Marius Hobbhahn
+33,Coordinate-Free Interpretability Theory,johnswentworth
+34,When is intent alignment sufficient or necessary to reduce AGI conflict? ,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
+35,When would AGIs engage in conflict?,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
+36,When does technical work to reduce AGI conflict make a difference?: Introduction,"JesseClifton, Samuel Dylan Martin, Anthony DiGiovanni"
+37,The Defender’s Advantage of Interpretability,Marius Hobbhahn
+38,Some ideas for epistles to the AI ethicists,Charlie Steiner
+39,Trying to find the underlying structure of computational systems,Matthias G. Mayer
+40,"New tool for exploring EA Forum, LessWrong and Alignment Forum - Tree of Tags",Filip Sondej
+41,[Linkpost] A survey on over 300 works about interpretability in deep networks,Stephen Casper
+42,Ideological Inference Engines: Making Deontology Differentiable*,Paul Bricman
+43,Quintin's alignment papers roundup - week 1,Quintin Pope
+44,Path dependence in ML inductive biases,"Vivek Hebbar, Evan Hubinger"
+45,Ought will host a factored cognition “Lab Meeting”,"jungofthewon, Andreas Stuhlmüller"
+46,Evaluations project @ ARC is hiring a researcher and a webdev/engineer,Beth Barnes
+47,Oversight Leagues: The Training Game as a Feature,Paul Bricman
+48,Understanding and avoiding value drift,Alex Turner
+49,Most People Start With The Same Few Bad Ideas,johnswentworth
+50,Monitoring for deceptive alignment,Evan Hubinger
+51,[An email with a bunch of links I sent an experienced ML researcher interested in learning about Alignment / x-safety.],David Scott Krueger
+52,"What Should AI Owe To Us?
 Accountable and Aligned AI Systems via Contractualist AI Alignment",Xuan (Tan Zhi Xuan)
-41,Linkpost: Github Copilot productivity experiment,Daniel Kokotajlo
-42,AI-assisted list of ten concrete alignment things to do right now,Luke H Miles
-43,Framing AI Childhoods,David Udell
-44,The shard theory of human values,"Quintin Pope, Alex Turner"
-45,AXRP Episode 18 - Concept Extrapolation with Stuart Armstrong,DanielFilan
-46,An Update on Academia vs. Industry (one year into my faculty job),David Scott Krueger
-47,We may be able to see sharp left turns coming,"Ethan Perez, Neel Nanda"
-48,Behaviour Manifolds and the Hessian of the Total Loss - Notes and Criticism,Spencer Becker-Kahn
-49,Sticky goals: a concrete experiment for understanding deceptive alignment,Evan Hubinger
-50,Simulators,janus
-51,Replacement for PONR concept,Daniel Kokotajlo
-52,AI coordination needs clear wins,Evan Hubinger
-53,"AI Safety and Neighboring Communities: A Quick-Start Guide, as of Summer 2022",Sam Bowman
-54,Gradient Hacker Design Principles From Biology,johnswentworth
-55,"Infra-Exercises, Part 1","Diffractor, Jack Parker, Connall Garrod"
-56,Strategy For Conditioning Generative Models,"james.lucassen, Evan Hubinger"
-57,Survey of NLP Researchers: NLP is contributing to AGI progress; major catastrophe plausible,Sam Bowman
-58,Worlds Where Iterative Design Fails,johnswentworth
-59,How likely is deceptive alignment?,Evan Hubinger
-60,*New* Canada AI Safety & Governance community,Wyatt Tessari L'Allié
-61,How might we align transformative AI if it’s developed very soon?,HoldenKarnofsky
-62,(My understanding of) What Everyone in Technical Alignment is Doing and Why,"Thomas Larsen, elifland"
-63,Basin broadness depends on the size and number of orthogonal features,"TheMcDouglas, Avery, Lucius Bushnaq"
-64,Annual AGI Benchmarking Event,Lawrence Phillips
-65,Some conceptual alignment research projects,Richard Ngo
-66,A Test for Language Model Consciousness,Ethan Perez
-67,AI strategy nearcasting,HoldenKarnofsky
-68,Common misconceptions about OpenAI,Jacob Hilton
-69,Your posts should be on arXiv,JanBrauner
-70,What Makes A Good Measurement Device?,johnswentworth
-71,Google AI integrates PaLM with robotics: SayCan update [Linkpost],Evan R. Murphy
-72,Vingean Agency,Abram Demski
-73,Beliefs and Disagreements about Automating Alignment Research,Ian McKenzie
-74,Interspecies diplomacy as a potentially productive lens on AGI alignment,Shariq Hashme
-75,"Ethan Perez on the Inverse Scaling Prize, Language Feedback and Red Teaming",Michaël Trazzi
-76,AGI Timelines Are Mostly Not Strategically Relevant To Alignment,johnswentworth
-77,AI alignment as “navigating the space of intelligent behaviour”,Nora_Ammann
-78,Finding Goals in the World Model,"Jeremy Gillen, JamesH, Thomas Larsen"
-79,AXRP Episode 17 - Training for Very High Reliability with Daniel Ziegler,DanielFilan
-80,Broad Picture of Human Values,Thane Ruthenis
-81,Refine's Second Blog Post Day,Adam Shimi
-82,No One-Size-Fit-All Epistemic Strategy,Adam Shimi
-83,What if we approach AI safety like a technical engineering safety problem,zeshen
-84,PreDCA: vanessa kosoy's alignment protocol,Tamsin Leake
-85,Benchmarking Proposals on Risk Scenarios,Paul Bricman
-86,"Reducing Goodhart: Announcement, Executive Summary",Charlie Steiner
-87,Less Threat-Dependent Bargaining Solutions?? (3/2),Diffractor
-88,"How to do theoretical research, a personal perspective",Mark Xu
-89,Epistemic Artefacts of (conceptual) AI alignment research,Nora_Ammann
-90,Discovering Agents,Zachary Kenton
-91,"Announcing Encultured AI: 
+53,Linkpost: Github Copilot productivity experiment,Daniel Kokotajlo
+54,AI-assisted list of ten concrete alignment things to do right now,Luke H Miles
+55,Framing AI Childhoods,David Udell
+56,The shard theory of human values,"Quintin Pope, Alex Turner"
+57,AXRP Episode 18 - Concept Extrapolation with Stuart Armstrong,DanielFilan
+58,An Update on Academia vs. Industry (one year into my faculty job),David Scott Krueger
+59,We may be able to see sharp left turns coming,"Ethan Perez, Neel Nanda"
+60,Behaviour Manifolds and the Hessian of the Total Loss - Notes and Criticism,Spencer Becker-Kahn
+61,Sticky goals: a concrete experiment for understanding deceptive alignment,Evan Hubinger
+62,Simulators,janus
+63,Replacement for PONR concept,Daniel Kokotajlo
+64,AI coordination needs clear wins,Evan Hubinger
+65,"AI Safety and Neighboring Communities: A Quick-Start Guide, as of Summer 2022",Sam Bowman
+66,Gradient Hacker Design Principles From Biology,johnswentworth
+67,"Infra-Exercises, Part 1","Diffractor, Jack Parker, Connall Garrod"
+68,Strategy For Conditioning Generative Models,"james.lucassen, Evan Hubinger"
+69,Survey of NLP Researchers: NLP is contributing to AGI progress; major catastrophe plausible,Sam Bowman
+70,Worlds Where Iterative Design Fails,johnswentworth
+71,How likely is deceptive alignment?,Evan Hubinger
+72,*New* Canada AI Safety & Governance community,Wyatt Tessari L'Allié
+73,How might we align transformative AI if it’s developed very soon?,HoldenKarnofsky
+74,(My understanding of) What Everyone in Technical Alignment is Doing and Why,"Thomas Larsen, elifland"
+75,Basin broadness depends on the size and number of orthogonal features,"TheMcDouglas, Avery, Lucius Bushnaq"
+76,Annual AGI Benchmarking Event,Lawrence Phillips
+77,Some conceptual alignment research projects,Richard Ngo
+78,A Test for Language Model Consciousness,Ethan Perez
+79,AI strategy nearcasting,HoldenKarnofsky
+80,Common misconceptions about OpenAI,Jacob Hilton
+81,Your posts should be on arXiv,JanBrauner
+82,What Makes A Good Measurement Device?,johnswentworth
+83,Google AI integrates PaLM with robotics: SayCan update [Linkpost],Evan R. Murphy
+84,Vingean Agency,Abram Demski
+85,Beliefs and Disagreements about Automating Alignment Research,Ian McKenzie
+86,Interspecies diplomacy as a potentially productive lens on AGI alignment,Shariq Hashme
+87,"Ethan Perez on the Inverse Scaling Prize, Language Feedback and Red Teaming",Michaël Trazzi
+88,AGI Timelines Are Mostly Not Strategically Relevant To Alignment,johnswentworth
+89,AI alignment as “navigating the space of intelligent behaviour”,Nora_Ammann
+90,Finding Goals in the World Model,"Jeremy Gillen, JamesH, Thomas Larsen"
+91,AXRP Episode 17 - Training for Very High Reliability with Daniel Ziegler,DanielFilan
+92,Broad Picture of Human Values,Thane Ruthenis
+93,Refine's Second Blog Post Day,Adam Shimi
+94,No One-Size-Fit-All Epistemic Strategy,Adam Shimi
+95,What if we approach AI safety like a technical engineering safety problem,zeshen
+96,PreDCA: vanessa kosoy's alignment protocol,Tamsin Leake
+97,Benchmarking Proposals on Risk Scenarios,Paul Bricman
+98,"Reducing Goodhart: Announcement, Executive Summary",Charlie Steiner
+99,Less Threat-Dependent Bargaining Solutions?? (3/2),Diffractor
+100,"How to do theoretical research, a personal perspective",Mark Xu
+101,Epistemic Artefacts of (conceptual) AI alignment research,Nora_Ammann
+102,Discovering Agents,Zachary Kenton
+103,"Announcing Encultured AI: 
 Building a Video Game","Andrew Critch, Nick Hay"
-92,Concrete Advice for Forming Inside Views on AI Safety,Neel Nanda
-93,"Conditioning, Prompts, and Fine-Tuning",Adam Jermyn
-94,The Core of the Alignment Problem is...,"Thomas Larsen, Jeremy Gillen, JamesH"
-95,Human Mimicry Mainly Works When We’re Already Close,johnswentworth
-96,The longest training run,"Jaime Sevilla, Tamay Besiroglu, Owen Dudney, Anson Ho"
-97,Autonomy as taking responsibility for reference maintenance,Ramana Kumar
-98,"What's General-Purpose Search, And Why Might We Expect To See It In Trained ML Systems?",johnswentworth
-99,Seeking Interns/RAs for Mechanistic Interpretability Projects,Neel Nanda
-100,A Mechanistic Interpretability Analysis of Grokking,"Neel Nanda, Tom Lieberum"
-101,All the posts I will never write,Self-Embedded Agent
-102,"Brain-like AGI project ""aintelope"" ",Gunnar Zarncke
-103,A brief note on Simplicity Bias,Spencer Becker-Kahn
-104,Evolution is a bad analogy for AGI: inner alignment,Quintin Pope
-105,An extended rocket alignment analogy,remember
-106,Refine's First Blog Post Day,Adam Shimi
-107,The Dumbest Possible Gets There First,Artaxerxes
-108,I missed the crux of the alignment problem the whole time,zeshen
-109,goal-program bricks,Tamsin Leake
-110,Shapes of Mind and Pluralism in Alignment,Adam Shimi
-111,How I think about alignment,Linda Linsefors
-112,Steelmining via Analogy,Paul Bricman
-113,the Insulated Goal-Program idea,Tamsin Leake
-114,Gradient descent doesn't select for inner search,Ivan Vendrov
-115,DeepMind alignment team opinions on AGI ruin arguments,Victoria Krakovna
-116,Oversight Misses 100% of Thoughts The AI Does Not Think,johnswentworth
-117,Refining the sharp left turn threat model,"Victoria Krakovna, Vikrant Varma, Ramana Kumar, Mary Phuong"
-118,"Seriously, what goes wrong with ""reward the agent when it makes you smile""?Q","Alex Turner, johnswentworth"
-119,"Encultured AI Pre-planning, Part 2: 
+104,Concrete Advice for Forming Inside Views on AI Safety,Neel Nanda
+105,"Conditioning, Prompts, and Fine-Tuning",Adam Jermyn
+106,The Core of the Alignment Problem is...,"Thomas Larsen, Jeremy Gillen, JamesH"
+107,Human Mimicry Mainly Works When We’re Already Close,johnswentworth
+108,The longest training run,"Jaime Sevilla, Tamay Besiroglu, Owen Dudney, Anson Ho"
+109,Autonomy as taking responsibility for reference maintenance,Ramana Kumar
+110,"What's General-Purpose Search, And Why Might We Expect To See It In Trained ML Systems?",johnswentworth
+111,Seeking Interns/RAs for Mechanistic Interpretability Projects,Neel Nanda
+112,A Mechanistic Interpretability Analysis of Grokking,"Neel Nanda, Tom Lieberum"
+113,All the posts I will never write,Self-Embedded Agent
+114,"Brain-like AGI project ""aintelope"" ",Gunnar Zarncke
+115,A brief note on Simplicity Bias,Spencer Becker-Kahn
+116,Evolution is a bad analogy for AGI: inner alignment,Quintin Pope
+117,An extended rocket alignment analogy,remember
+118,Refine's First Blog Post Day,Adam Shimi
+119,The Dumbest Possible Gets There First,Artaxerxes
+120,I missed the crux of the alignment problem the whole time,zeshen
+121,goal-program bricks,Tamsin Leake
+122,Shapes of Mind and Pluralism in Alignment,Adam Shimi
+123,How I think about alignment,Linda Linsefors
+124,Steelmining via Analogy,Paul Bricman
+125,the Insulated Goal-Program idea,Tamsin Leake
+126,Gradient descent doesn't select for inner search,Ivan Vendrov
+127,DeepMind alignment team opinions on AGI ruin arguments,Victoria Krakovna
+128,Oversight Misses 100% of Thoughts The AI Does Not Think,johnswentworth
+129,Refining the sharp left turn threat model,"Victoria Krakovna, Vikrant Varma, Ramana Kumar, Mary Phuong"
+130,"Seriously, what goes wrong with ""reward the agent when it makes you smile""?Q","Alex Turner, johnswentworth"
+131,"Encultured AI Pre-planning, Part 2: 
 Providing a Service","Andrew Critch, Nick Hay"
-120,Language models seem to be much better than humans at next-token prediction,"Buck Shlegeris, Fabien, Lawrence Chan"
-121,Shard Theory: An Overview,David Udell
-122,The alignment problem from a deep learning perspective,Richard Ngo
-123,How much alignment data will we need in the long run?,Jacob Hilton
-124,"How Do We Align an AGI Without Getting Socially Engineered? 
+132,Language models seem to be much better than humans at next-token prediction,"Buck Shlegeris, Fabien, Lawrence Chan"
+133,Shard Theory: An Overview,David Udell
+134,The alignment problem from a deep learning perspective,Richard Ngo
+135,How much alignment data will we need in the long run?,Jacob Hilton
+136,"How Do We Align an AGI Without Getting Socially Engineered? 
 (Hint: Box It)","Peter S. Park, NickyP, Stephen Fowler"
-125,How To Go From Interpretability To Alignment: Just Retarget The Search,johnswentworth
-126,Announcing: Mechanism Design for AI Safety - Reading Group,Rubi
-127,General alignment properties,Alex Turner
-128,"Encultured AI, Part 1 Appendix: Relevant Research Examples","Andrew Critch, Nick Hay"
-129,"Encultured AI Pre-planning, Part 1: 
+137,How To Go From Interpretability To Alignment: Just Retarget The Search,johnswentworth
+138,Announcing: Mechanism Design for AI Safety - Reading Group,Rubi J. Hudson
+139,General alignment properties,Alex Turner
+140,"Encultured AI, Part 1 Appendix: Relevant Research Examples","Andrew Critch, Nick Hay"
+141,"Encultured AI Pre-planning, Part 1: 
 Enabling New Benchmarks","Andrew Critch, Nick Hay"
-130,Interpretability/Tool-ness/Alignment/Corrigibility are not Composable,johnswentworth
-131,Steganography in Chain of Thought Reasoning,Alex Gray
-132,A Data limited future,Donald Hobson
-133,Announcing the Introduction to ML Safety course,"Dan Hendrycks, ThomasW, Oliver Zhang"
-134,Rant on Problem Factorization for Alignment,johnswentworth
-135,Counterfactuals are Confusing because of an Ontological Shift,Chris_Leong
-136,Bridging Expected Utility Maximization and Optimization,Daniel Herrmann
-137,$20K In Bounties for AI Safety Public Materials,"Dan Hendrycks, ThomasW, Oliver Zhang"
-138,Convergence Towards World-Models: A Gears-Level Model,Thane Ruthenis
-139,The Pragmascope Idea,johnswentworth
-140,Precursor checking for deceptive alignment,Evan Hubinger
-141,Externalized reasoning oversight: a research direction for language model alignment,tamera
-142,Law-Following AI 4: Don't Rely on Vicarious Liability,Cullen_OKeefe
-143,Two-year update on my personal AI timelines,Ajeya Cotra
-144,chinchilla's wild implications,nostalgebraist
-145,How transparency changed over time,ViktoriaMalyasova
-146,Humans Reflecting on HRH,leogao
-147,Comparing Four Approaches to Inner Alignment,Lucas Teixeira
-148,Conjecture: Internal Infohazard Policy,"Connor Leahy, Sid Black, Chris Scammell, Andrea_Miotti"
-149,Abstracting The Hardness of Alignment: Unbounded Atomic Optimization,Adam Shimi
-150,Principles of Privacy for Alignment Research,johnswentworth
-151,Moral strategies at different capability levels,Richard Ngo
-152,Levels of Pluralism,Adam Shimi
-153,Unifying Bargaining Notions (2/2),Diffractor
-154,AGI ruin scenarios are likely (and disjunctive),Nate Soares
-155,"«Boundaries», Part 1: a key missing concept from utility theory",Andrew Critch
-156,Active Inference as a formalisation of instrumental convergence,Roman Leventov
-157,NeurIPS ML Safety Workshop 2022,Dan Hendrycks
-158,Unifying Bargaining Notions (1/2),Diffractor
-159,Reward is not the optimization target,Alex Turner
-160,Brainstorm of things that could force an AI team to burn their lead,Nate Soares
-161,Robustness to Scaling Down: More Important Than I Thought,Adam Shimi
-162,Conditioning Generative Models with Restrictions,Adam Jermyn
-163,[AN #173] Recent language model results from DeepMind,Rohin Shah
-164,How to Diversify Conceptual Alignment: the Model Behind Refine,Adam Shimi
-165,Abram Demski's ELK thoughts and proposal - distillation,Rubi
-166,Bounded complexity of solving ELK and its implications,Rubi
-167,Help ARC evaluate capabilities of current language models (still need people),Beth Barnes
-168,"Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover",Ajeya Cotra
-169,Quantilizers and Generative Models,Adam Jermyn
-170,Conditioning Generative Models for Alignment,Arun Jose
-171,Training goals for large language models,Johannes Treutlein
-172,A distillation of Evan Hubinger's training stories (for SERI MATS),Daphne_W
-173,Forecasting ML Benchmarks in 2023,Jacob Steinhardt
-174,Deception?! I ain’t got time for that!,Paul Colognese
-175,How Interpretability can be Impactful,Connall Garrod
-176,Why you might expect homogeneous take-off: evidence from ML research,Andrei Alexandru
-177,Examples of AI Increasing AI Progress,ThomasW
-178,Safety Implications of LeCun's path to machine intelligence,Ivan Vendrov
-179,Notes on Learning the Prior,Spencer Becker-Kahn
-180,A note about differential technological development,Nate Soares
-181,Circumventing interpretability: How to defeat mind-readers,Lee Sharkey
-182,Humans provide an untapped wealth of evidence about alignment,"Alex Turner, Quintin Pope"
-183,Deep learning curriculum for large language model alignment,Jacob Hilton
-184,Artificial Sandwiching: When can we test scalable alignment protocols without humans?,Sam Bowman
-185,Which AI Safety research agendas are the most promising?Q,Chris_Leong
-186,Acceptability Verification: A Research Agenda,"David Udell, Evan Hubinger"
-187,"Response to Blake Richards: AGI, generality, alignment, & loss functions",Steve Byrnes
-188,Mosaic and Palimpsests: Two Shapes of Research,Adam Shimi
-189,On how various plans miss the hard bits of the alignment challenge,Nate Soares
-190,Hessian and Basin volume,Vivek Hebbar
-191,Grouped Loss may disfavor discontinuous capabilities,Adam Jermyn
-192,Train first VS prune first in neural networks.,Donald Hobson
-193,"Visualizing Neural networks, how to blame the bias",Donald Hobson
-194,"Making it harder for an AGI to ""trick"" us, with STVs",Tor Økland Barstad
-195,Safety considerations for online generative modeling,Sam Marks
-196,Human values & biases are inaccessible to the genome,Alex Turner
-197,Race Along Rashomon Ridge,"Stephen Fowler, Peter S. Park, MichaelEinhorn"
-198,Principles for Alignment/Agency Projects,johnswentworth
-199,Outer vs inner misalignment: three framings,Richard Ngo
-200,Introducing the Fund for Alignment Research (We're Hiring!),"AdamGleave, Scott Emmons, Ethan Perez, Claudia Shi"
-201,[AN #172] Sorry for the long hiatus!,Rohin Shah
-202,Benchmark for successful concept extrapolation/avoiding goal misgeneralization,Stuart Armstrong
-203,Remaking EfficientZero (as best I can),Hoagy
-204,[Linkpost] Existential Risk Analysis in Empirical Research Papers,Dan Hendrycks
-205,AXRP Episode 16 - Preparing for Debate AI with Geoffrey Irving,DanielFilan
-206,Trends in GPU price-performance,"Marius Hobbhahn, Tamay Besiroglu"
-207,What Is The True Name of Modularity?,"TheMcDouglas, Lucius Bushnaq, Avery"
-208,Safetywashing,Adam Scholl
-209,Formal Philosophy and Alignment Possible Projects,Daniel Herrmann
+142,Interpretability/Tool-ness/Alignment/Corrigibility are not Composable,johnswentworth
+143,Steganography in Chain of Thought Reasoning,Alex Gray
+144,A Data limited future,Donald Hobson
+145,Announcing the Introduction to ML Safety course,"Dan Hendrycks, ThomasW, Oliver Zhang"
+146,Rant on Problem Factorization for Alignment,johnswentworth
+147,Counterfactuals are Confusing because of an Ontological Shift,Chris_Leong
+148,Bridging Expected Utility Maximization and Optimization,Daniel Herrmann
+149,$20K In Bounties for AI Safety Public Materials,"Dan Hendrycks, ThomasW, Oliver Zhang"
+150,Convergence Towards World-Models: A Gears-Level Model,Thane Ruthenis
+151,The Pragmascope Idea,johnswentworth
+152,Precursor checking for deceptive alignment,Evan Hubinger
+153,Externalized reasoning oversight: a research direction for language model alignment,tamera
+154,Law-Following AI 4: Don't Rely on Vicarious Liability,Cullen_OKeefe
+155,Two-year update on my personal AI timelines,Ajeya Cotra
+156,chinchilla's wild implications,nostalgebraist
+157,How transparency changed over time,ViktoriaMalyasova
+158,Humans Reflecting on HRH,leogao
+159,Comparing Four Approaches to Inner Alignment,Lucas Teixeira
+160,Conjecture: Internal Infohazard Policy,"Connor Leahy, Sid Black, Chris Scammell, Andrea_Miotti"
+161,Abstracting The Hardness of Alignment: Unbounded Atomic Optimization,Adam Shimi
+162,Principles of Privacy for Alignment Research,johnswentworth
+163,Moral strategies at different capability levels,Richard Ngo
+164,Levels of Pluralism,Adam Shimi
+165,Unifying Bargaining Notions (2/2),Diffractor
+166,AGI ruin scenarios are likely (and disjunctive),Nate Soares
+167,"«Boundaries», Part 1: a key missing concept from utility theory",Andrew Critch
+168,Active Inference as a formalisation of instrumental convergence,Roman Leventov
+169,NeurIPS ML Safety Workshop 2022,Dan Hendrycks
+170,Unifying Bargaining Notions (1/2),Diffractor
+171,Reward is not the optimization target,Alex Turner
+172,Brainstorm of things that could force an AI team to burn their lead,Nate Soares
+173,Robustness to Scaling Down: More Important Than I Thought,Adam Shimi
+174,Conditioning Generative Models with Restrictions,Adam Jermyn
+175,[AN #173] Recent language model results from DeepMind,Rohin Shah
+176,How to Diversify Conceptual Alignment: the Model Behind Refine,Adam Shimi
+177,Abram Demski's ELK thoughts and proposal - distillation,Rubi J. Hudson
+178,Bounded complexity of solving ELK and its implications,Rubi J. Hudson
+179,Help ARC evaluate capabilities of current language models (still need people),Beth Barnes
+180,"Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover",Ajeya Cotra
+181,Quantilizers and Generative Models,Adam Jermyn
+182,Conditioning Generative Models for Alignment,Arun Jose
+183,Training goals for large language models,Johannes Treutlein
+184,A distillation of Evan Hubinger's training stories (for SERI MATS),Daphne_W
+185,Forecasting ML Benchmarks in 2023,Jacob Steinhardt
+186,Deception?! I ain’t got time for that!,Paul Colognese
+187,How Interpretability can be Impactful,Connall Garrod
+188,Why you might expect homogeneous take-off: evidence from ML research,Andrei Alexandru
+189,Examples of AI Increasing AI Progress,ThomasW
+190,Safety Implications of LeCun's path to machine intelligence,Ivan Vendrov
+191,Notes on Learning the Prior,Spencer Becker-Kahn
+192,A note about differential technological development,Nate Soares
+193,Circumventing interpretability: How to defeat mind-readers,Lee Sharkey
+194,Humans provide an untapped wealth of evidence about alignment,"Alex Turner, Quintin Pope"
+195,Deep learning curriculum for large language model alignment,Jacob Hilton
+196,Artificial Sandwiching: When can we test scalable alignment protocols without humans?,Sam Bowman
+197,Which AI Safety research agendas are the most promising?Q,Chris_Leong
+198,Acceptability Verification: A Research Agenda,"David Udell, Evan Hubinger"
+199,"Response to Blake Richards: AGI, generality, alignment, & loss functions",Steve Byrnes
+200,Mosaic and Palimpsests: Two Shapes of Research,Adam Shimi
+201,On how various plans miss the hard bits of the alignment challenge,Nate Soares
+202,Hessian and Basin volume,Vivek Hebbar
+203,Grouped Loss may disfavor discontinuous capabilities,Adam Jermyn
+204,Train first VS prune first in neural networks.,Donald Hobson
+205,"Visualizing Neural networks, how to blame the bias",Donald Hobson
+206,"Making it harder for an AGI to ""trick"" us, with STVs",Tor Økland Barstad
+207,Safety considerations for online generative modeling,Sam Marks
+208,Human values & biases are inaccessible to the genome,Alex Turner
+209,Race Along Rashomon Ridge,"Stephen Fowler, Peter S. Park, MichaelEinhorn"
+210,Principles for Alignment/Agency Projects,johnswentworth
+211,Outer vs inner misalignment: three framings,Richard Ngo
+212,Introducing the Fund for Alignment Research (We're Hiring!),"AdamGleave, Scott Emmons, Ethan Perez, Claudia Shi"
+213,[AN #172] Sorry for the long hiatus!,Rohin Shah
+214,Benchmark for successful concept extrapolation/avoiding goal misgeneralization,Stuart Armstrong
+215,Remaking EfficientZero (as best I can),Hoagy
+216,[Linkpost] Existential Risk Analysis in Empirical Research Papers,Dan Hendrycks
+217,AXRP Episode 16 - Preparing for Debate AI with Geoffrey Irving,DanielFilan
+218,Trends in GPU price-performance,"Marius Hobbhahn, Tamay Besiroglu"
+219,What Is The True Name of Modularity?,"TheMcDouglas, Lucius Bushnaq, Avery"
+220,Safetywashing,Adam Scholl
+221,Formal Philosophy and Alignment Possible Projects,Daniel Herrmann
+222,Gradient hacking: definitions and examples,Richard Ngo
+223,Latent Adversarial Training,Adam Jermyn
+224,Will Capabilities Generalise More?,Ramana Kumar
+225,What success looks like,"Marius Hobbhahn, MaxRa, JasperGeh, Yannick_Muehlhaeuser"
+226,Some alternative AI safety research projects,Michele Campolo
+227,Exploring Mild Behaviour in Embedded Agents,Megan Kinniment
+228,Deliberation Everywhere: Simple Examples,Oliver Sourbut
+229,"Deliberation, Reactions, and Control: Tentative Definitions and a Restatement of Instrumental Convergence",Oliver Sourbut
+230,Announcing the Inverse Scaling Prize ($250k Prize Pool),"Ethan Perez, Ian McKenzie, Sam Bowman"
+231,Announcing Epoch: A research organization investigating the road to Transformative AI,"Jaime Sevilla, Pablo Villalobos, Tamay Besiroglu, Lennart Heim, Marius Hobbhahn, Anson Ho"
+232,Training Trace Priors and Speed Priors,Adam Jermyn
+233,Conditioning Generative Models,Adam Jermyn
+234,AI-Written Critiques Help Humans Notice Flaws,Paul Christiano
+235,Updated Deference is not a strong argument against the utility uncertainty approach to alignment,Ivan Vendrov
+236,Reflection Mechanisms as an Alignment target: A survey,"Marius Hobbhahn, elandgre, Beth Barnes"
+237,Getting from an unaligned AGI to an aligned AGI? ,Tor Økland Barstad
+238,A Toy Model of Gradient Hacking,Oam Patel
+239,On corrigibility and its basin,Donald Hobson
+240,Causal confusion as an argument against the scaling hypothesis,"Robert Kirk, David Scott Krueger"
+241,Let's See You Write That Corrigibility Tag,Eliezer Yudkowsky
+242,Where I agree and disagree with Eliezer,Paul Christiano
+243,Agent level parallelism,Johannes C. Mayer
+244,Do yourself a FAVAR: security mindset,Luke H Miles
+245,Pivotal outcomes and pivotal processes,Andrew Critch
+246,Quantifying General Intelligence,JasonBrown
+247,Value extrapolation vs Wireheading,Stuart Armstrong
+248,wrapper-minds are the enemy,nostalgebraist
+249,A transparency and interpretability tech tree,Evan Hubinger
+250,Humans are very reliable agents,Alyssa Vance
+251,Breaking Down Goal-Directed Behaviour,Oliver Sourbut
+252,"Ten experiments in modularity, which we'd like you to run!","TheMcDouglas, Lucius Bushnaq, Avery"
+253,"A central AI alignment problem: capabilities generalization, and the sharp left turn",Nate Soares
+254,Investigating causal understanding in LLMs,"Marius Hobbhahn, Tom Lieberum"
+255,Continuity Assumptions,Jan_Kulveit
+256,Training Trace Priors,Adam Jermyn
+257,ELK Proposal - Make the Reporter care about the Predictor’s beliefs,"Adam Jermyn, Nicholas Schiefer"
+258,Godzilla Strategies,johnswentworth
+259,Open Problems in AI X-Risk [PAIS #5],"Dan Hendrycks, ThomasW"
+260,why assume AGIs will optimize for fixed goals?Q,"nostalgebraist, Rob Bensinger"
+261,You Only Get One Shot: an Intuition Pump for Embedded Agency,Oliver Sourbut
+262,How Do Selection Theorems Relate To Interpretability?,johnswentworth
+263,Eliciting Latent Knowledge (ELK) - Distillation/Summary,Marius Hobbhahn
+264,Who models the models that model models? An exploration of GPT-3's in-context model fitting ability,Lovre
+265,"A descriptive, not prescriptive, overview of current AI Alignment Research","Jan Hendrik Kirchner, Logan Riggs Smith, Jacques Thibodeau, janus"
+266,Grokking “Forecasting TAI with biological anchors”,Anson Ho
+267,Reading the ethicists 2: Hunting for AI alignment papers,Charlie Steiner
+268,Some ideas for follow-up projects to Redwood Research’s recent paper,JanBrauner
+269,Why agents are powerful,Daniel Kokotajlo
+270,Epistemological Vigilance for Alignment,Adam Shimi
+271,AGI Ruin: A List of Lethalities,Eliezer Yudkowsky
+272,Deep Learning Systems Are Not Less Interpretable Than Logic/Probability/Etc,johnswentworth
+273,Announcing the Alignment of Complex Systems Research Group,"Jan_Kulveit, technicalities"
+274,"[MLSN #4]: Many New Interpretability Papers, Virtual Logit Matching, Rationalization Helps Robustness",Dan Hendrycks
+275,"Adversarial training, importance sampling, and anti-adversarial training for AI whistleblowing",Buck Shlegeris
+276,The prototypical catastrophic AI action is getting root access to its datacenter,Buck Shlegeris
+277,"Confused why a ""capabilities research is good for alignment progress"" position isn't discussed more",Kaj Sotala
+278,Paradigms of AI alignment: components and enablers,Victoria Krakovna
+279,Paper: Teaching GPT3 to express uncertainty in words,Owain Evans
+280,Perform Tractable Research While Avoiding Capabilities Externalities [Pragmatic AI Safety #4],"Dan Hendrycks, ThomasW"
+281,Six Dimensions of Operational Adequacy in AGI Projects,Eliezer Yudkowsky
+282,Reshaping the AI Industry,Thane Ruthenis
+283,The Problem With The Current State of AGI Definitions,Yitzi Litt
+284,Distributed Decisions,johnswentworth
+285,"The ""Measuring Stick of Utility"" Problem",johnswentworth
+286,RL with KL penalties is better seen as Bayesian inference,"Tomek Korbak, Ethan Perez"
+287,autonomy: the missing AGI ingredient?,nostalgebraist
+288,The No Free Lunch theorems and their Razor,Adrià Garriga-Alonso
+289,Complex Systems for AI Safety [Pragmatic AI Safety #3],"Dan Hendrycks, ThomasW"
+290,Bits of Optimization Can Only Be Lost Over A Distance,johnswentworth
+291,AXRP Episode 15 - Natural Abstractions with John Wentworth,DanielFilan
+292,Gradations of Agency,Daniel Kokotajlo
+293,Adversarial attacks and optimal control,Jan Hendrik Kirchner
+294,[Short version] Information Loss --> Basin flatness,Vivek Hebbar
+295,Information Loss --> Basin flatness,Vivek Hebbar
+296,How RL Agents Behave When Their Actions Are Modified? [Distillation post],Pablo Antonio Moreno Casares
+297,We have achieved Noob Gains in AI,Aniruddha Nrusimha
+298,Maxent and Abstractions: Current Best Arguments,johnswentworth
+299,How to get into AI safety research,Stuart Armstrong
+300,Gato's Generalisation: Predictions and Experiments I'd Like to See,Oliver Sourbut
+301,Actionable-guidance and roadmap recommendations for the NIST AI Risk Management Framework,"Dan Hendrycks, Tony Barrett"
+302,"[Intro to brain-like-AGI safety] 15. Conclusion: Open problems, how to help, AMA",Steve Byrnes
+303,Proxy misspecification and the capabilities vs. value learning race,Sam Marks
+304,Optimization at a Distance,johnswentworth
+305,Clarifying the confusion around inner alignment,Rauno Arike
+306,Frame for Take-Off Speeds to inform compute governance & scaling alignment,Logan Riggs Smith
+307,Alignment as Constraints,Logan Riggs Smith
+308,Against Time in Agent Models,johnswentworth
+309,Agency As a Natural Abstraction,Thane Ruthenis
+310,An observation about Hubinger et al.'s framework for learned optimization,Spencer Becker-Kahn
+311,DeepMind is hiring for the Scalable Alignment and Alignment Teams,"Rohin Shah, Geoffrey Irving"
+312,Interpretability’s Alignment-Solving Potential: Analysis of 7 Scenarios,Evan R. Murphy
+313,Introduction to the sequence: Interpretability Research for the Most Important Century,Evan R. Murphy
+314,Deepmind's Gato: Generalist Agent,Daniel Kokotajlo
+315, [Intro to brain-like-AGI safety] 14. Controlled AGI,Steve Byrnes
+316,The limits of AI safety via debate,Marius Hobbhahn
+317,Conditions for mathematical equivalence of Stochastic Gradient Descent and Natural Selection,Oliver Sourbut
+318,A Bird's Eye View of the ML Field [Pragmatic AI Safety #2],"Dan Hendrycks, ThomasW"
+319,Introduction to Pragmatic AI Safety [Pragmatic AI Safety #1],"Dan Hendrycks, ThomasW"
+320,Jobs: Help scale up LM alignment research at NYU,Sam Bowman
+321,Updating Utility Functions,"JustinShovelain, Joar Skalse"
+322,Elementary Infra-Bayesianism,Jan Hendrik Kirchner
+323,The case for becoming a black-box investigator of language models,Buck Shlegeris
+324,Open Problems in Negative Side Effect Minimization,"Fabian Schimpf, Lukas Fluri"
+325,Apply to the second iteration of the ML for Alignment Bootcamp (MLAB 2) in Berkeley [Aug 15 - Fri Sept 2],Buck Shlegeris
+326,High-stakes alignment via adversarial training [Redwood Research report],"DMZ, Lawrence Chan, Nate Thomas"
+327,Introducing the ML Safety Scholars Program,"Dan Hendrycks, ThomasW, Mantas Mazeika, Oliver Zhang, Sidney Hough, Kevin Liu"
+328,Learning the smooth prior,"Geoffrey Irving, Rohin Shah, Evan Hubinger"
+329,Prize for Alignment Research Tasks,"Andreas Stuhlmüller, William Saunders"
+330,The Speed + Simplicity Prior is probably anti-deceptive,Yonadav Shavit
+331,Law-Following AI 3: Lawless AI Agents Undermine Stabilizing Agreements,Cullen_OKeefe
+332,Law-Following AI 2: Intent Alignment + Superintelligence → Lawless AI (By Default),Cullen_OKeefe
+333,Law-Following AI 1: Sequence Introduction and Structure,Cullen_OKeefe
+334,[Intro to brain-like-AGI safety] 13. Symbol grounding & human social instincts,Steve Byrnes
+335,SERI ML Alignment Theory Scholars Program 2022,"Ryan Kidd, Victor Warlop, Oliver Zhang"
+336,Why Copilot Accelerates Timelines,Michaël Trazzi
+337,[$20K in Prizes] AI Safety Arguments Competition,"Dan Hendrycks, Kevin Liu, Oliver Zhang, ThomasW, Sidney Hough"
+338,Framings of Deceptive Alignment,Peter Barnett
+339,[Request for Distillation] Coherence of Distributed Decisions  With Different Inputs Implies Conditioning,johnswentworth
+340,Intuitions about solving hard problems,Richard Ngo
+341,[ASoT] Consequentialist models as a superset of mesaoptimizers,leogao
+342,Infra-Topology,Diffractor
+343,Infra-Miscellanea,Diffractor
+344,"For every choice of AGI difficulty, conditioning on gradual take-off implies shorter timelines.",Francis Rhys Ward
+345,[Intro to brain-like-AGI safety] 12. Two paths forward: “Controlled AGI” and “Social-instinct AGI”,Steve Byrnes
+346,GPT-3 and concept extrapolation,Stuart Armstrong
+347,“Pivotal Act” Intentions: Negative Consequences and Fallacious Arguments,Andrew Critch
+348,Concept extrapolation: key posts,Stuart Armstrong
+349,Everything I Need To Know About Takeoff Speeds I Learned From Air Conditioner Ratings On Amazon,johnswentworth
+350,Some reasons why a predictor wants to be a consequentialist,Lauro Langosco
+351,Refine: An Incubator for Conceptual Alignment Research Bets,Adam Shimi
+352,Early 2022 Paper Round-up,Jacob Steinhardt
+353,Takeoff speeds have a huge effect on what it means to work on AI x-risk,Buck Shlegeris
+354,What to include in a guest lecture on existential risks from AI?Q,Aryeh Englander
+355,Another list of theories of impact for interpretability,Beth Barnes
+356,"What's a good probability distribution family (e.g. ""log-normal"") to use for AGI timelines?Q",David Scott Krueger
+357,A Small Negative Result on Debate,Sam Bowman
+358,A broad basin of attraction around human values?,Wei Dai
+359,Elicit: Language Models as Research Assistants,"Andreas Stuhlmüller, jungofthewon"
+360,"AMA Conjecture, A New Alignment Startup",Adam Shimi
+361,Language Model Tools for Alignment Research,Logan Riggs Smith
+362,"AIs should learn human preferences, not biases",Stuart Armstrong
+363,"We Are Conjecture, A New Alignment Research Startup",Connor Leahy
+364,Different perspectives on concept extrapolation,Stuart Armstrong
+365,"Productive Mistakes, Not Perfect Answers",Adam Shimi
+366,[ASoT] Some thoughts about imperfect world modeling,leogao
+367,How  BoMAI Might fail,Donald Hobson
+368,"Truthfulness, standards and credibility",Joe_Collman
+369,[Link] A minimal viable product for alignment,Jan Leike
+370,[Link] Why I’m excited about AI-assisted human feedback,Jan Leike
+371,[Intro to brain-like-AGI safety] 11. Safety ≠ alignment (but they’re close!),Steve Byrnes
+372,"PaLM in ""Extrapolating GPT-N performance""",Lukas Finnveden
+373,Testing PaLM prompts on GPT3,Yitzi Litt
+374,AXRP Episode 14 - Infra-Bayesian Physicalism with Vanessa Kosoy,DanielFilan
+375,"Supervise Process, not Outcomes","Andreas Stuhlmüller, jungofthewon"
+376,Call For Distillers,johnswentworth
+377,Project Intro: Selection Theorems for Modularity,"TheMcDouglas, Avery, Lucius Bushnaq"
+378,Theories of Modularity in the Biological Literature,"TheMcDouglas, Avery, Lucius Bushnaq"
+379,On Agent Incentives to Manipulate Human Feedback in Multi-Agent Reward Learning Scenarios,Francis Rhys Ward
+380,AI Governance across Slow/Fast Takeoff and Easy/Hard Alignment spectra,David Manheim
+381,"Optimality is the tiger, and agents are its teeth",Veedrac
+382,New Scaling Laws for Large Language Models,1a3orn
+383,[Link] Training Compute-Optimal Large Language Models,nostalgebraist
+384,AXRP Episode 13 - First Principles of AGI Safety with Richard Ngo,DanielFilan
+385,ELK Computational Complexity: Three Levels of Difficulty,Abram Demski
+386,Procedurally evaluating factual accuracy: a request for research,Jacob Hilton
+387,[ASoT] Some thoughts about LM monologue limitations and ELK,leogao
+388,[Intro to brain-like-AGI safety] 10. The alignment problem,Steve Byrnes
+389,Gears-Level Mental Models of Transformer Interpretability,KevinRoWang
+390,Towards a better circuit prior: Improving on ELK state-of-the-art,Evan Hubinger
+391,Vaniver's ELK Submission,"Matthew ""Vaniver"" Graves"
+392,[ASoT] Some thoughts about deceptive mesaoptimization,leogao
+393,[ASoT] Searching for consequentialist structure,leogao
+394,[ASoT] Some ways ELK could still be solvable in practice,leogao
+395,"When people ask for your P(doom), do you give them your inside view or your betting odds?Q",Vivek Hebbar
+396,Compute Governance: The Role of Commodity Hardware,Jan Hendrik Kirchner
+397,[ASoT] Observations about ELK,leogao
+398,Why Agent Foundations? An Overly Abstract Explanation,johnswentworth
+399,A survey of tool use and workflows in alignment research,"Logan Riggs Smith, Jan Hendrik Kirchner, janus, Jacques Thibodeau"
+400,[Intro to brain-like-AGI safety] 9. Takeaways from neuro 2/2: On AGI motivation,Steve Byrnes
+401,Exploring Finite Factored Sets with some toy examples,Thomas Kehrenberg
+402,[Intro to brain-like-AGI safety] 8. Takeaways from neuro 1/2: On AGI development,Steve Byrnes
+403,Dual use of artificial-intelligence-powered drug discovery,"Matthew ""Vaniver"" Graves"
+404,ELK contest submission: route understanding through the human ontology,"Victoria Krakovna, Ramana Kumar, Vikrant Varma"
+405,A Longlist of Theories of Impact for Interpretability,Neel Nanda
+406,A Rephrasing Of and Footnote To An Embedded Agency Proposal,JoshuaOSHickman
+407,ELK Sub - Note-taking in internal rollouts,Hoagy
+408,It Looks Like You're Trying To Take Over The World,gwern
+409,[Intro to brain-like-AGI safety] 7. From hardcoded drives to foresighted plans: A worked example,Steve Byrnes
+410,ELK prize results,"Paul Christiano, Mark Xu"
+411,"Value extrapolation, concept extrapolation, model splintering",Stuart Armstrong
+412,"
+[MLSN #3]: NeurIPS Safety Paper Roundup",Dan Hendrycks
+413,Projecting compute trends in Machine Learning,"Tamay Besiroglu, Lennart Heim, Jaime Sevilla"
+414,"[Intro to brain-like-AGI safety] 6. Big picture of motivation, decision-making, and RL",Steve Byrnes
+415,Musings on the Speed Prior,Evan Hubinger
+416,[Link] Aligned AI AMA,Stuart Armstrong
+417,Late 2021 MIRI Conversations: AMA / Discussion,Rob Bensinger
+418,Shah and Yudkowsky on alignment failures,"Rohin Shah, Eliezer Yudkowsky"
+419,ELK Thought Dump,Abram Demski
+420,How I Formed My Own Views About AI Safety,Neel Nanda
+421,"How do new models from OpenAI, DeepMind and Anthropic perform on TruthfulQA?",Owain Evans
+422,The Big Picture Of Alignment (Talk Part 2),johnswentworth
+423,Transformer inductive biases & RASP,Vivek Hebbar
+424,A comment on Ajeya Cotra's draft report on AI timelines,Matthew Barnett
+425,Christiano and Yudkowsky on AI predictions and human intelligence,Eliezer Yudkowsky
+426,More GPT-3 and symbol grounding,Stuart Armstrong
+427,"[Intro to brain-like-AGI safety] 5. The “long-term predictor”, and TD learning",Steve Byrnes
+428,ELK Proposal: Thinking Via A Human Imitator,Alex Turner
+429,Ngo and Yudkowsky on scientific reasoning and pivotal acts,"Eliezer Yudkowsky, Richard Ngo"
+430,Alignment research exercises,Richard Ngo
+431,Favorite / most obscure research on understanding DNNs?Q,Vivek Hebbar
+432,The Big Picture Of Alignment (Talk Part 1),johnswentworth
+433,Two Challenges for ELK,derek shiller
+434,"Alignment researchers, how useful is extra compute for you?",Lauro Langosco

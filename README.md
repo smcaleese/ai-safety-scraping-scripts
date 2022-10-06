@@ -1,4 +1,6 @@
-Scripts for scraping publications from The Alignment Forum, OpenAI and DeepMind.
+Scripts for scraping and analyzing posts from from the Alignment Forum, OpenAI and DeepMind.
+
+Information scraped and analyzed using these scripts was used in this LessWrong post: https://www.lesswrong.com/editPost?postId=mC3oeq62DWeqxiNBx&key=83c7b49f596a99fb52f5374fcc1e41#fnoaqdm9larv
 
 # Instructions
 
